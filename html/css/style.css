@@ -3961,7 +3961,7 @@ td.details table tr td,.dataTable tr:last-child {
     background-color:#FFFFFF;
 }
 .adv-table .dataTables_filter label input {
-    float:right;
+    float:left;
     margin-left:10px;
     width:78%;
 }
