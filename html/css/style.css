@@ -11,7 +11,7 @@ html {
 body {
     color:#767676;
     background:#f1f2f7;
-    font-family:'Open Sans',sans-serif;
+    font-family:B Yekan,'Open Sans',sans-serif;
     padding:0px !important;
     margin:0px !important;
     font-size:13px;
@@ -270,7 +270,7 @@ ul.sidebar-menu li a {
     text-decoration:none;
     display:block;
     padding:18px 25px 18px 0px;
-    font-size:12px;
+    font-size:13px;
     outline:none;
     -webkit-transition:all 0.3s ease;
     -moz-transition:all 0.3s ease;
@@ -4819,13 +4819,13 @@ div.tagsinput span.tag {
     color:#fff;
 }
 .notification-info {
-    margin-left:56px;
     margin-top:-40px;
+    margin-right:56px;
 }
 .notification-meta {
     margin-bottom:3px;
-    padding-left: 0;
     list-style: none;
+    padding-right: 0;
 }
 .notification-info p {
     margin:0px;
@@ -4905,8 +4905,8 @@ div.tagsinput span.tag {
     display:inline-block;
     font-size:12px;
     float:left;
-    margin-left:12px;
     width:70%;
+    margin-right:12px;
 }
 .conversation-list .ctext-wrap {
     padding:10px;
@@ -4940,9 +4940,9 @@ div.tagsinput span.tag {
 }
 .conversation-list .odd .conversation-text {
     width:70% !important;
-    margin-right:12px;
     text-align: right;
-    float:right !important;
+    float:left!important;
+    margin-left:12px;
 }
 .conversation-list .odd .ctext-wrap {
     background:#eeeef2 !important;
@@ -4951,10 +4951,10 @@ div.tagsinput span.tag {
     color:#acacac;
 }
 .conversation-list .odd .ctext-wrap:after {
-    left:100% !important;
     top:20% !important;
     border-color:rgba(238,238,242,0)!important;
     border-left-color:#eeeef2!important;
+    right:-13% !important;
 }
 .chat-send {
     padding-left:0px;
@@ -5099,9 +5099,9 @@ div.tagsinput span.tag {
     -webkit-border-radius:100%;
     -moz-border-radius:100%;
     border-radius:100%;
-    float:left;
-    margin-right:10px;
+    float:right;
     color:#fff;
+    margin-left:10px;
 }
 .mini-stat-info {
     font-size:12px;
@@ -5143,6 +5143,7 @@ div.tagsinput span.tag {
     font-size:14px;
     color:#ccc;
     list-style: none;
+    text-align: left;
 }
 .weather-icon {
     margin-right:10px;
@@ -5250,8 +5251,8 @@ div.tagsinput span.tag {
 }
 .todo-actionlist {
     position:absolute;
-    right:15px;
     top:13px;
+    left:15px;
 }
 .todo-actionlist a {
     height:24px;
@@ -5285,7 +5286,7 @@ div.tagsinput span.tag {
 .drag-marker {
     height:17px;
     display:block;
-    float:left;
+    float:right;
     width:7px;
     position:relative;
     top:2px;
